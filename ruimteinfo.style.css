@@ -68,7 +68,8 @@
 
 @font-face {
     font-family: vlaanderen_iconfont;
-    src: url('https://cdn.ruimteinfo.be/browser-support/LATEST/font/vlaanderen_iconfont.woff');
+    src: url('https://cdn.ruimteinfo.be/browser-support/LATEST/font/vlaanderen_iconfont.eot');
+    src: local('☺'), url('https://cdn.ruimteinfo.be/vlaanderen-font/LATEST/font/flandersart/vlaanderen_iconfont.eot?#iefix') format('embedded-opentype'), url('https://cdn.ruimteinfo.be/vlaanderen-font/LATEST/font/flandersart/vlaanderen_iconfont.woff') format('woff'), url('https://cdn.ruimteinfo.be/vlaanderen-font/LATEST/font/flandersart/vlaanderen_iconfont.ttf') format('truetype');
 }
 
 .vo-font, .vo-font-sans {
