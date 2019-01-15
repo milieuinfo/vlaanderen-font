@@ -52,7 +52,7 @@ suite('browser support', function() {
             assert.exists(link);
             assert.equal(link.getAttribute('rel'), 'stylesheet');
             assert.equal(link.getAttribute('type'), 'text/css');
-            assert.equal(link.getAttribute('href'), 'https://cdn.milieuinfo.be/vlaanderen-font/LATEST/milieuinfo.style.css');
+            assert.equal(link.getAttribute('href'), 'https://cdn.milieuinfo.be/vlaanderen-font/LATEST/style.css');
             done();
         });
     });
@@ -63,20 +63,6 @@ suite('browser support', function() {
             const window = dom.window;
             const links = window.document.querySelectorAll('link');
             expect(links).to.have.length(1);
-            done();
-        });
-    });
-
-    test('wanneer de host ruimteinfo is, zal er een ander style script gebruikt worden', (done) => {
-        const dom = setup();
-        dom.reconfigure({url: 'https://app.ruimteinfo.be'});
-        wait(dom, () => {
-            const window = dom.window;
-            const link = window.document.querySelector('link');
-            assert.exists(link);
-            assert.equal(link.getAttribute('rel'), 'stylesheet');
-            assert.equal(link.getAttribute('type'), 'text/css');
-            assert.equal(link.getAttribute('href'), 'https://cdn.ruimteinfo.be/vlaanderen-font/LATEST/ruimteinfo.style.css');
             done();
         });
     });
