@@ -19,7 +19,7 @@ Afhankelijk van het domein waarin de website zit, moet je een andere URL aanspre
 
 ## Ontwikkelaars
 
-Zie de lijst van [ontwikkelaars](https://github.com/milieuinfo/browser-support/graphs/contributors) die meegewerkt hebben aan de webcomponent.
+Zie de lijst van [ontwikkelaars](https://github.com/milieuinfo/vlaanderen-font/graphs/contributors) die meegewerkt hebben aan de webcomponent.
 
 ## Contact
 
