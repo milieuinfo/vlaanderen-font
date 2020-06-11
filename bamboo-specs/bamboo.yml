@@ -3,7 +3,7 @@ version: 2
 plan:
   project-key: WEBCO
   key: VLAANDERENFONT
-  name: webcomponent-vl-ui-button
+  name: vlaanderen-font
 
 triggers:
   - polling: 130
