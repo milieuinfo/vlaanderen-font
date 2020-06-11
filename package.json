@@ -5,6 +5,7 @@
   "main": "vlaanderen-font.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --ui tdd test/**/*.test.js --reporter spec",
+    "release:prepare": "echo 2Fabiola for the bigger and bolder",
     "release": "np"
   },
   "author": "Tom Coemans",
