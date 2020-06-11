@@ -17,6 +17,10 @@
     "np": "3.0.4",
     "gpg": "0.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milieuinfo/vlaanderen-font.git"
+  },
   "publishConfig": {
     "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
   }
