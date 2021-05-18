@@ -15,7 +15,7 @@ function wait(dom, callback) {
     });
 }
 
-function setup() {
+const setup = () => {
     return new JSDOM(`
         <head>
             <script src="./vlaanderen-font.js"></script>
@@ -26,7 +26,7 @@ function setup() {
     });
 }
 
-function setupMultipleTimes() {
+const setupMultipleTimes = () => {
     return new JSDOM(`
         <head>
             <script src="./vlaanderen-font.js"></script>
@@ -58,7 +58,7 @@ suite('browser support', function() {
     });
 
     test('de vlaanderen fonts worden niet meer toegevoegd indien deze reeds bestaan', (done) => {
-        const dom = setup();
+        const dom = setupMultipleTimes();
         wait(dom, () => {
             const window = dom.window;
             const links = window.document.querySelectorAll('link');
