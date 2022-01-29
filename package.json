@@ -17,7 +17,7 @@
     "jsdom": "11.11.0",
     "mocha": "5.2.0",
     "np": "3.0.4",
-    "sinon": "6.0.1"
+    "sinon": "13.0.0"
   },
   "repository": {
     "type": "git",
