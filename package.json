@@ -14,7 +14,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "gpg": "0.6.0",
-    "jsdom": "11.11.0",
+    "jsdom": "23.2.0",
     "mocha": "5.2.0",
     "np": "3.0.4",
     "sinon": "6.0.1"
